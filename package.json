@@ -1,0 +1,26 @@
+{
+  "name": "globwatch",
+  "version": "0.0.0",
+  "description": "A glob-capable file watcher.",
+  "main": "globwatch.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "minimatch": "~0.2.9"
+  },
+  "devDependencies": {
+    "chai": "~1.3.0",
+    "mocha": "~1.6.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.js"
+  },
+  "repository": "",
+  "keywords": [
+    "utility",
+    "filewatcher"
+  ],
+  "author": "Toby Ho",
+  "license": "MIT"
+}
